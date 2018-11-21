@@ -19,6 +19,8 @@
             #header .main-menu {
                 display: flex;
                 margin-left: 32%;
+                text-align: center;
+                align-content: middle;
             }
             
             #header .instele h1 {
