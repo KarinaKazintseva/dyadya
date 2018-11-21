@@ -125,3 +125,23 @@ i {
     filter: contrast(100%);
     /*делает картинку цветной*/
 }
+
+.dv>img:hover {}
+
+
+/*NEEEEEEEEEEEEEEEEEEEEEEEEEEEEEW*/
+
+.kisa {
+    margin-bottom: 15px;
+    display: flex;
+    font-family: fantasy;
+    font-size: 3em;
+}
+
+.kisa>p {
+    margin: 150px 20px;
+}
+
+marquee img {
+    border: 10px solid black;
+}
