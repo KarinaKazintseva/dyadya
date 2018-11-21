@@ -31,9 +31,9 @@
                 font-family: fantasy;
             }
             
-            p a {
+            #header p a {
                 font-size: 1.3em;
-                margin: 30%;
+                margin: 40%;
                 padding-top: 10%;
                 color: rgb(218, 215, 212);
                 font-family: fantasy;
