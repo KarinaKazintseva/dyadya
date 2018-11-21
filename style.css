@@ -102,10 +102,6 @@ i {
     font-size: 2em;
 }
 
-.otkr>img:hover {
-    border: 5px solid black;
-}
-
 
 /*ABOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTT*/
 
@@ -114,4 +110,18 @@ i {
     font-family: fantasy;
     color: black;
     font-size: 1.808em;
+}
+
+
+/* попытка обезцветить картинки*/
+
+#img {
+    filter: grayscale(100%);
+    /*делает картинки чб*/
+}
+
+#img:hover {
+    border: 5px solid black;
+    filter: contrast(100%);
+    /*делает картинку цветной*/
 }
