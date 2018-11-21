@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#header {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    padding: 2% 10% 2% 10%;
+}
+
+.instele {
+    text-align: left;
+    display: flex;
+}
+
+.main-menu {
+    display: flex;
+    margin-left: 32%;
+}
+
+h1 {
+    font-size: 3.2em;
+    text-align: right;
+    margin-left: 810px;
+    color: rgb(218, 215, 212);
+    font-family: fantasy;
+}
+
+p a {
+    font-size: 1.3em;
+    margin: 25px;
+    padding-top: 15px;
+    color: rgb(218, 215, 212);
+    font-family: fantasy;
+}
+
+ul li {
+    margin: 25px;
+}
+
+li a {
+    color: rgb(218, 215, 212);
+    font-size: 1.3em;
+    font-family: fantasy;
+}
+
+.dv {
+    margin-left: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* черній верх закончися!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#page-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1% 10% 1% 10%;
+}
+
+.otkr {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 1px;
+    flex-wrap: wrap;
+}
+
+img {
+    margin-top: 1%;
+}
+
+
+/*kartinki!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#footer {
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 2% 10% 2% 10%;
+    align-content: middle;
+}
+
+.klac {
+    text-align: center;
+}
+
+a i {
+    display: flex;
+    margin: 2%;
+}
+
+i {
+    font-size: 2em;
+}
+
+.otkr>img:hover {
+    border: 5px solid black;
+}
