@@ -1,149 +1,173 @@
-body {
-    margin: 0 auto;
-    font-size: 16px;
-}
-
-#header {
-    width: 80%;
-    height: 400px;
-    margin: 0 auto;
-    background-color: rgb(0, 0, 0);
-    padding: 2% 10% 2% 10%;
-}
-
-.instele {
-    text-align: left;
-    display: flex;
-}
-
-.main-menu {
-    display: flex;
-    margin-left: 32%;
-}
-
-h1 {
-    font-size: 3.2em;
-    text-align: right;
-    margin-left: 810px;
-    color: rgb(218, 215, 212);
-    font-family: fantasy;
-}
-
-p a {
-    font-size: 1.3em;
-    margin: 25px;
-    padding-top: 15px;
-    color: rgb(218, 215, 212);
-    font-family: fantasy;
-}
-
-ul li {
-    margin: 25px;
-}
-
-li a {
-    color: rgb(218, 215, 212);
-    font-size: 1.3em;
-    font-family: fantasy;
-}
-
-.dv {
-    margin-left: 40%;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/* черній верх закончися!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-#page-wrapper {
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    padding: 1% 10% 1% 10%;
-}
-
-.otkr {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px;
-    padding: 1px;
-    flex-wrap: wrap;
-}
-
-img {
-    margin-top: 1%;
-}
-
-
-/*kartinki!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-#footer {
-    width: 80%;
-    height: 10%;
-    margin: 0 auto;
-    background-color: black;
-    padding: 2% 10% 2% 10%;
-    align-content: middle;
-}
-
-.klac {
-    text-align: center;
-}
-
-a i {
-    display: flex;
-    margin: 2%;
-}
-
-i {
-    font-size: 2em;
-}
-
-
-/*ABOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTT*/
-
-.abva {
-    padding: 5px;
-    font-family: fantasy;
-    color: black;
-    font-size: 1.808em;
-}
-
-
-/* попытка обезцветить картинки*/
-
-#img {
-    height: 350px;
-    width: 494.5px;
-    filter: grayscale(100%);
-    /*делает картинки чб*/
-}
-
-#img:hover {
-    border: 5px solid black;
-    filter: contrast(100%);
-    /*делает картинку цветной*/
-}
-
-.dv>img:hover {}
-
-
-/*NEEEEEEEEEEEEEEEEEEEEEEEEEEEEEW*/
-
-.kisa {
-    margin-bottom: 15px;
-    display: flex;
-    font-family: fantasy;
-    font-size: 3em;
-}
-
-.kisa>p {
-    margin: 150px 20px;
-}
-
-marquee img {
-    border: 10px solid black;
-}
+            body {
+                margin: 0 auto;
+                font-size: 16px;
+            }
+            
+            #header {
+                width: 80%;
+                height: 400px;
+                margin: 0 auto;
+                background-color: rgb(0, 0, 0);
+                padding: 2% 10% 2% 10%;
+            }
+            
+            .instele {
+                text-align: left;
+                display: flex;
+            }
+            
+            .main-menu {
+                display: flex;
+                margin-left: 32%;
+            }
+            
+            h1 {
+                font-size: 3.2em;
+                text-align: right;
+                margin-left: 810px;
+                color: rgb(218, 215, 212);
+                font-family: fantasy;
+            }
+            
+            p a {
+                font-size: 1.3em;
+                margin: 25px;
+                padding-top: 15px;
+                color: rgb(218, 215, 212);
+                font-family: fantasy;
+            }
+            
+            ul li {
+                margin: 25px;
+            }
+            
+            li a {
+                color: rgb(218, 215, 212);
+                font-size: 1.3em;
+                font-family: fantasy;
+            }
+            
+            .dv {
+                margin-left: 40%;
+                position: relative;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            /* черній верх закончися!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+            
+            #page-wrapper {
+                width: 80%;
+                margin: 0 auto;
+                background-color: rgb(255, 255, 255);
+                padding: 0.4% 10% 1% 10%;
+            }
+            
+            .otkr {
+                display: flex;
+                justify-content: space-between;
+                margin: 5px;
+                padding: 1px;
+                flex-wrap: wrap;
+            }
+            
+            img {
+                margin-top: 1%;
+            }
+            /*kartinki!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+            
+            #footer {
+                width: 80%;
+                height: 10%;
+                margin: 0 auto;
+                background-color: black;
+                padding: 2% 10% 2% 10%;
+                align-content: middle;
+            }
+            
+            .klac {
+                text-align: center;
+            }
+            
+            a i {
+                display: flex;
+                margin: 2%;
+            }
+            
+            i {
+                font-size: 2em;
+            }
+            /*ABOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTT*/
+            
+            .abva {
+                padding: 5px;
+                font-family: fantasy;
+                color: black;
+                font-size: 1.808em;
+            }
+            /* попытка обезцветить картинки*/
+            
+            #img {
+                height: 350px;
+                width: 494.5px;
+                filter: grayscale(100%);
+                /*делает картинки чб*/
+            }
+            
+            #img:hover {
+                border: 5px solid black;
+                filter: contrast(100%);
+                /*делает картинку цветной*/
+            }
+            /*NEEEEEEEEEEEEEEEEEEEEEEEEEEEEEW*/
+            
+            .kisa {
+                margin-bottom: 15px;
+                display: flex;
+                font-family: fantasy;
+                font-size: 3em;
+            }
+            
+            .kisa>p {
+                margin: 150px 20px;
+            }
+            
+            marquee img {
+                border: 10px solid black;
+            }
+            
+            #page-wrapper #prod .otkr img {
+                filter: grayscale(0%);
+                border: none;
+            }
+            /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+            
+            .dv {
+                width: 280px;
+                position: relative;
+            }
+            
+            .dv img {
+                opacity: 1;
+            }
+            
+            .dv>img:hover {
+                opacity: 0.5;
+            }
+            
+            .dv_text {
+                font-size: 1em;
+                font-family: fantasy;
+                color: rgb(218, 215, 212);
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin: 75px;
+                opacity: 0;
+                visibility: none;
+            }
+            
+            .dv :hover {
+                opacity: 1;
+            }
