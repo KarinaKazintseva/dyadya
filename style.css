@@ -69,8 +69,7 @@
             .otkr {
                 display: flex;
                 justify-content: space-between;
-                margin: 5px;
-                padding: 1px;
+                margin: 0;
                 flex-wrap: wrap;
             }
             
@@ -111,8 +110,8 @@
             /* попытка обезцветить картинки*/
             
             #img {
-                height: 350px;
-                width: 494.5px;
+                height: 22%;
+                width: 32%;
                 filter: grayscale(100%);
                 /*делает картинки чб*/
             }
