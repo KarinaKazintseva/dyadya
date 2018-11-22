@@ -18,11 +18,11 @@
             
             #header .main-menu {
                 display: flex;
-                margin-left: 27%;
+                margin-left: 30%;
                 text-align: center;
                 align-content: middle;
                 position: relative;
-                margin-top: 18%;
+                margin-top: 22%;
             }
             
             #header .instele h1 {
@@ -58,7 +58,7 @@
             
             #header img {
                 /* margin-top: 15%; */
-                height: 20%;
+                height: 35%;
                 width: 20%;
             }
             
