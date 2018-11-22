@@ -1,6 +1,6 @@
             body {
                 margin: 0 auto;
-                font-size: 3%;
+                font-size: 2vh;
             }
             
             #header {
@@ -106,10 +106,10 @@
             /*ABOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTT*/
             
             .abva {
-                padding: 5px;
+                padding: 1vh;
                 font-family: fantasy;
-                color: black;
-                font-size: 1.808em;
+                color: rgb(0, 0, 0);
+                font-size: 3vh;
             }
             /* попытка обезцветить картинки*/
             
